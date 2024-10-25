@@ -5,7 +5,7 @@ import {
   Route,
   redirect,
 } from "react-router-dom";
-import Landing from "./Pages/Landing/Landing";
+import Landing from "./pages/Landing/Landing";
 import Auth from "./Pages/Auth/Auth";
 import Payment from "./pages/payment/payment";
 import Orders from "./Pages/Orders/Orders";
@@ -28,7 +28,6 @@ function Routing() {
           path="/payments"
           element={
             <ProtectedRoute
-          
               msg={"you must log in to pay"}
               redirect={"/payments"}
             >
