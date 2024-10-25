@@ -5,16 +5,16 @@ import {
   Route,
   redirect,
 } from "react-router-dom";
-import Landing from "./pages/Landing/Landing";
-import Auth from "./pages/Auth/Auth";
-import Payment from "./pages/payment/payment";
-import Orders from "./Pages/Orders/Orders";
-import Cart from "./Pages/Cart/Cart";
-import Results from "./Pages/Results/Results";
-import ProductDetail from "./Pages/productDetail/productDetail";
+import Landing from "./pages/Landing/Landing.jsx";
+import Auth from "./pages/Auth/Auth.jsx";
+import Payment from "./pages/payment/payment.jsx";
+import Orders from "./pages/Orders/Orders.jsx";
+import Cart from "./Pages/Cart/Cart.jsx";
+import Results from "./Pages/Results/Results.jsx";
+import ProductDetail from "./Pages/productDetail/productDetail.jsx";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
-import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
+import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute.jsx";
 const stripePromise = loadStripe(
   "pk_test_51Q3eLY2M25evp1tCiCFyBuCA9MY3GFGrEgPi4TeJLEcYqoVWCyTs1s8FqKQNk4gGYHiEmRvBLarGpVuf0rA4WMXK00cnRMdgPU"
 );
