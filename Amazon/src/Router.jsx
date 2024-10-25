@@ -6,12 +6,12 @@ import {
   redirect,
 } from "react-router-dom";
 import Landing from "./pages/Landing/Landing";
-import Auth from "./Pages/Auth/Auth";
+import Auth from "./pages/Auth/Auth";
 import Payment from "./pages/payment/payment";
 import Orders from "./Pages/Orders/Orders";
 import Cart from "./Pages/Cart/Cart";
 import Results from "./Pages/Results/Results";
-import ProductDetail from "./Pages/ProductDetail/ProductDetail";
+import ProductDetail from "./Pages/productDetail/productDetail";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
